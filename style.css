@@ -1,0 +1,32 @@
+.section {
+    position: relative;
+}
+
+.video-docker {
+    position: relative;
+}
+
+.video-docker video {
+    width: 100%;
+    object-fit: cover;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+.video-content {
+    z-index: 2;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 20px; /* Ajusta este valor según sea necesario */
+}

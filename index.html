@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sra. Yeso</title>
+
+    <!-- tailwindcss -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Hero -->
+    <section
+      class="relative h-screen flex flex-col-reverse lg:flex-row items-center text-dark py-0 px-3"
+    >
+      <div
+        class="video-docker relative w-full h-1/2 lg:w-1/2 lg:h-full overflow-hidden"
+      >
+        <video
+          class="w-full h-full object-cover"
+          src="./src/video.mp4"
+          type="video/mp4"
+          autoplay
+          muted
+          loop
+        ></video>
+        <div class="overlay"></div>
+      </div>
+      <div class="video-content space-y-2 flex-1 lg:p-10">
+        <h1 class="font-light text-6xl">Sra. Yeso</h1>
+        <h3 class="font-light text-3xl">Placas de yeso 3D que te enamoran😍</h3>
+      </div>
+    </section>
+
+    <!-- Cards -->
+    <div class="flex min-h-screen items-center justify-center bg-neutral-800">
+      <div class="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
+        <div
+          class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30"
+        >
+          <div class="h-96 w-72">
+            <img
+              class="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
+              src="https://product-hub-prd.madeiramadeira.com.br/159722326/images/adf29bea-24a0-4142-9dd7-998e8330d607b94b3eed3dade31c4c17MXc023.jpg"
+              alt=""
+            />
+          </div>
+          <div
+            class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"
+          ></div>
+          <div
+            class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0"
+          >
+            <h1 class="font-dmserif text-3xl font-bold text-white">Hermoso</h1>
+            <p
+              class="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+              dolore adipisci placeat.
+            </p>
+            <button
+              class="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60"
+            >
+              See More
+            </button>
+          </div>
+        </div>
+        <div
+          class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30"
+        >
+          <div class="h-96 w-72">
+            <img
+              class="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
+              src="https://www.shoppingdasdivisorias.com.br/site/wp-content/uploads/2019/07/placa-de-gesso.jpg"
+              alt=""
+            />
+          </div>
+          <div
+            class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"
+          ></div>
+          <div
+            class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0"
+          >
+            <h1 class="font-dmserif text-3xl font-bold text-white">
+              Buen gusto
+            </h1>
+            <p
+              class="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+              dolore adipisci placeat.
+            </p>
+            <button
+              class="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60"
+            >
+              See More
+            </button>
+          </div>
+        </div>
+        <div
+          class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30"
+        >
+          <div class="h-96 w-72">
+            <img
+              class="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
+              src="https://static.hbt.triider.com.br/photos/business/big/onde-compro-placa-gesso-3d-3383747.jpg"
+              alt=""
+            />
+          </div>
+          <div
+            class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"
+          ></div>
+          <div
+            class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0"
+          >
+            <h1 class="font-dmserif text-3xl font-bold text-white">
+              Ambiente requintado
+            </h1>
+            <p
+              class="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+              dolore adipisci placeat.
+            </p>
+            <button
+              class="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60"
+            >
+              See More
+            </button>
+          </div>
+        </div>
+      </div>
+      <!--         <div class="fixed bottom-16">
+          <p class="font-com text-2xl font-semibold text-white">La confianza y el buen gusto juntos</p>
+        </div> -->
+    </div>
+
+    <!-- Jumbotron -->
+    <div
+      class="max-w-screen-lg bg-white shadow-2xl rounded-lg mx-auto text-center py-12 mt-4"
+    >
+      <h2
+        class="text-3xl leading-9 font-bold tracking-tight text-gray-800 sm:text-4xl sm:leading-10"
+      >
+        Empieza a revestir con nosotros
+      </h2>
+      <div class="mt-8 flex justify-center">
+        <h3>Nuestro catálogo empieza aqui</h3>
+      </div>
+    </div>
+
+    <!-- Catálogo  del 1 al 3-->
+    <div class="flex min-h-screen items-center justify-center bg-neutral-800">
+      <div class="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
+        <div
+          class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30"
+        >
+          <div class="h-96 w-72">
+            <img
+              class="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
+              src="https://product-hub-prd.madeiramadeira.com.br/159722326/images/adf29bea-24a0-4142-9dd7-998e8330d607b94b3eed3dade31c4c17MXc023.jpg"
+              alt=""
+            />
+          </div>
+          <div
+            class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"
+          ></div>
+          <div
+            class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0"
+          >
+            <h1 class="font-dmserif text-3xl font-bold text-white">Hermoso</h1>
+            <p
+              class="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+              dolore adipisci placeat.
+            </p>
+            <button
+              class="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60"
+            >
+              See More
+            </button>
+          </div>
+        </div>
+        <div
+          class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30"
+        >
+          <div class="h-96 w-72">
+            <img
+              class="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
+              src="https://www.shoppingdasdivisorias.com.br/site/wp-content/uploads/2019/07/placa-de-gesso.jpg"
+              alt=""
+            />
+          </div>
+          <div
+            class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"
+          ></div>
+          <div
+            class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0"
+          >
+            <h1 class="font-dmserif text-3xl font-bold text-white">
+              Buen gusto
+            </h1>
+            <p
+              class="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+              dolore adipisci placeat.
+            </p>
+            <button
+              class="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60"
+            >
+              See More
+            </button>
+          </div>
+        </div>
+        <div
+          class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30"
+        >
+          <div class="h-96 w-72">
+            <img
+              class="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
+              src="https://static.hbt.triider.com.br/photos/business/big/onde-compro-placa-gesso-3d-3383747.jpg"
+              alt=""
+            />
+          </div>
+          <div
+            class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"
+          ></div>
+          <div
+            class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0"
+          >
+            <h1 class="font-dmserif text-3xl font-bold text-white">
+              Ambiente requintado
+            </h1>
+            <p
+              class="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+              dolore adipisci placeat.
+            </p>
+            <button
+              class="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60"
+            >
+              See More
+            </button>
+          </div>
+        </div>
+      </div>
+      <hr
+        class="my-6 h-0.5 border-t-0 bg-neutral-200 opacity-100 dark:opacity-1"
+      />
+      <!--         <div class="fixed bottom-16">
+            <p class="font-com text-2xl font-semibold text-white">La confianza y el buen gusto juntos</p>
+          </div> -->
+    </div>
+
+    <!-- 4 al 6 -->
+    <div class="flex min-h-screen items-center justify-center bg-neutral-800">
+      <div class="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
+        <div
+          class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30"
+        >
+          <div class="h-96 w-72">
+            <img
+              class="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
+              src="https://product-hub-prd.madeiramadeira.com.br/159722326/images/adf29bea-24a0-4142-9dd7-998e8330d607b94b3eed3dade31c4c17MXc023.jpg"
+              alt=""
+            />
+          </div>
+          <div
+            class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"
+          ></div>
+          <div
+            class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0"
+          >
+            <h1 class="font-dmserif text-3xl font-bold text-white">Hermoso</h1>
+            <p
+              class="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+              dolore adipisci placeat.
+            </p>
+            <button
+              class="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60"
+            >
+              See More
+            </button>
+          </div>
+        </div>
+        <div
+          class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30"
+        >
+          <div class="h-96 w-72">
+            <img
+              class="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
+              src="https://www.shoppingdasdivisorias.com.br/site/wp-content/uploads/2019/07/placa-de-gesso.jpg"
+              alt=""
+            />
+          </div>
+          <div
+            class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"
+          ></div>
+          <div
+            class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0"
+          >
+            <h1 class="font-dmserif text-3xl font-bold text-white">
+              Buen gusto
+            </h1>
+            <p
+              class="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+              dolore adipisci placeat.
+            </p>
+            <button
+              class="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60"
+            >
+              See More
+            </button>
+          </div>
+        </div>
+        <div
+          class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30"
+        >
+          <div class="h-96 w-72">
+            <img
+              class="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
+              src="https://static.hbt.triider.com.br/photos/business/big/onde-compro-placa-gesso-3d-3383747.jpg"
+              alt=""
+            />
+          </div>
+          <div
+            class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"
+          ></div>
+          <div
+            class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0"
+          >
+            <h1 class="font-dmserif text-3xl font-bold text-white">
+              Ambiente requintado
+            </h1>
+            <p
+              class="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+              dolore adipisci placeat.
+            </p>
+            <button
+              class="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60"
+            >
+              See More
+            </button>
+          </div>
+        </div>
+      </div>
+      <hr
+        class="my-6 h-0.5 border-t-0 bg-neutral-200 opacity-100 dark:opacity-1"
+      />
+      <!--         <div class="fixed bottom-16">
+            <p class="font-com text-2xl font-semibold text-white">La confianza y el buen gusto juntos</p>
+          </div> -->
+    </div>
+
+    <!-- del 7 al 9 -->
+    <div class="flex min-h-screen items-center justify-center bg-neutral-800">
+      <div class="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
+        <div
+          class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30"
+        >
+          <div class="h-96 w-72">
+            <img
+              class="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
+              src="https://product-hub-prd.madeiramadeira.com.br/159722326/images/adf29bea-24a0-4142-9dd7-998e8330d607b94b3eed3dade31c4c17MXc023.jpg"
+              alt=""
+            />
+          </div>
+          <div
+            class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"
+          ></div>
+          <div
+            class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0"
+          >
+            <h1 class="font-dmserif text-3xl font-bold text-white">Hermoso</h1>
+            <p
+              class="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+              dolore adipisci placeat.
+            </p>
+            <button
+              class="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60"
+            >
+              See More
+            </button>
+          </div>
+        </div>
+        <div
+          class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30"
+        >
+          <div class="h-96 w-72">
+            <img
+              class="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
+              src="https://www.shoppingdasdivisorias.com.br/site/wp-content/uploads/2019/07/placa-de-gesso.jpg"
+              alt=""
+            />
+          </div>
+          <div
+            class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"
+          ></div>
+          <div
+            class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0"
+          >
+            <h1 class="font-dmserif text-3xl font-bold text-white">
+              Buen gusto
+            </h1>
+            <p
+              class="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+              dolore adipisci placeat.
+            </p>
+            <button
+              class="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60"
+            >
+              See More
+            </button>
+          </div>
+        </div>
+        <div
+          class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30"
+        >
+          <div class="h-96 w-72">
+            <img
+              class="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
+              src="https://static.hbt.triider.com.br/photos/business/big/onde-compro-placa-gesso-3d-3383747.jpg"
+              alt=""
+            />
+          </div>
+          <div
+            class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"
+          ></div>
+          <div
+            class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0"
+          >
+            <h1 class="font-dmserif text-3xl font-bold text-white">
+              Ambiente requintado
+            </h1>
+            <p
+              class="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+              dolore adipisci placeat.
+            </p>
+            <button
+              class="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60"
+            >
+              See More
+            </button>
+          </div>
+        </div>
+      </div>
+      <hr
+        class="my-6 h-0.5 border-t-0 bg-neutral-200 opacity-100 dark:opacity-1"
+      />
+      <!--         <div class="fixed bottom-16">
+            <p class="font-com text-2xl font-semibold text-white">La confianza y el buen gusto juntos</p>
+          </div> -->
+    </div>
+
+    <!--Footer container-->
+    <footer
+      class="flex flex-col items-center bg-neutral-200 text-center text-white dark:bg-neutral-600"
+    >
+      <div class="container pt-9">
+        <div class="mb-9 flex justify-center">
+          <a href="#!" class="mr-9 text-neutral-800 dark:text-neutral-200">
+            <svg
+              xmlns="https://www.instagram.com/sra_yeso/"
+              class="h-4 w-4"
+              fill="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"
+              />
+            </svg>
+          </a>
+          <h3>Te esperamos también en nuestro instagram</h3>
+        </div>
+      </div>
+
+      <!--Copyright section-->
+      <div
+        class="w-full bg-neutral-300 p-4 text-center text-neutral-700 dark:bg-neutral-700 dark:text-neutral-200"
+      >
+        © 2023 Copyright:
+        <a
+          class="text-neutral-800 dark:text-neutral-400"
+          href="https://tw-elements.com/"
+          >Sra. Yesso - Desarrollado por Marcos Mello</a
+        >
+      </div>
+    </footer>
+  </body>
+</html>
